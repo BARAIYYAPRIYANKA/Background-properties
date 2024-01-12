@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.navbar {
+    background: linear-gradient(
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 0.9),
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.7)
+    );
+    display: flex;
+}
+.navbar > div {
+    margin: 2% 0;
+    margin-left: 7%;
+    padding: 0.6% 1.5%;
+}
+.navdiv{
+    background-color: white;
+    color: black;
+}
+#imagediv{
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    
+}
+#imagediv img{
+    width: 100%;
+    object-fit: cover;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+}
+.Images{
+    width: 400px;
+    height: 450px;
+    margin: 10px;
+
+}
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer div {
+    width: 42%;
+}
+
+.footerimg {
+    width: 100%;
+}
+
+.lastimg {
+    padding: 3% 8% 1% 0;
+}
+
+footer div p {
+    margin-top: 30%;
+    margin-bottom: 10%;
+}
